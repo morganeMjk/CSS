@@ -1,0 +1,128 @@
+/************************************************************
+ * ATTENTION REGLAGES DE L'INTERFACE GLOBALE.
+ * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
+ * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
+ ************************************************************/
+ .page{
+    width: 900px;
+    margin:auto;
+}
+.entete{
+    height: 100px;
+}
+.colonne_menu{
+    float:left;
+    width:200px;
+    height:100%;
+}
+.colonne_contenu {
+    margin-left:200px;
+}
+.pieddepage{
+    height:50px;
+}
+
+/************************************************************
+ * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
+ ************************************************************/
+body{
+	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: #cccccc;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.page {
+}
+.entete{
+    background-color:#778899;
+    padding: 10px;
+}
+.titre {
+    font-size: 30px;
+    color: antiquewhite;
+}
+.slogan {
+    font-size: 22px;
+    color: antiquewhite;
+    font-style: italic;
+}
+.colonnes {
+    background-color: deepskyblue;
+}
+.colonne_menu{
+    background-color: gold;
+}
+.colonne_menu , .colonnes {
+    background-color: #5f9ea0;
+}
+.colonne_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+.colonne_menu li {
+    list-style-type: none;
+    background-color: #ffd700;
+    padding: 5px;
+    text-align: center;
+}
+.colonne_menu li:hover {
+    background-color: blueviolet;
+}
+.colonne_menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 5px;
+}
+
+.colonne_contenu {
+    background-color: antiquewhite;
+    margin-left: 215px;
+    padding: 15px;
+}
+h1 {
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(134, 91, 236);
+}
+.introduction {
+    font-style: italic;
+    border: 1px solid #135457;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h2 {
+    color: rgb(124, 101, 179);
+    font-size: 28px;
+    margin: 20px;
+    font-variant: small-caps;
+}
+p a {
+    font-weight: bold;
+}
+p a:hover {
+    color: red;
+    text-decoration: none;
+}
+strong{
+    color: rgb(199, 40, 40);
+    font-weight: normal;
+}
+em {
+    color: rgb(32, 138, 32);
+}
+.pieddepage{
+    background-color:#778899;
+    color: antiquewhite;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+}
+
+
+
